@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital@1&family=Roboto+Condensed:wght@300&family=Roboto+Slab&family=Roboto:ital,wght@1,300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.solidbackgrounds.com/images/950x350/950x350-light-blue-solid-color-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 754px;
+    width: 100%;
+    font-family:  serif;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.time
+{
+    font-size: 100px;
+    margin: 100px;
+}
+.btn
+{
+    width: 31%;
+    padding: 7px 24px;
+    font-weight: 700;
+    height: 20%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 8px;
+}
+#start
+{
+    background-color: green;
+}
+#stop
+{
+    background-color: red;
+}
+#reset
+{
+    background-color: yellow;
+}
